@@ -1,0 +1,65 @@
+
+.navbar ul li{
+    display: inline-block;
+    
+}
+.navbar{
+    background-color: #8338ec;
+    padding: 30px;
+    text-align: center;
+   
+}
+.navbar ul li a{
+    list-style:none;
+    text-decoration: none;
+    color: #ffffff;
+    font: 1.5em sans-serif;
+    padding: 70px;
+}
+  .navbar :hover{
+    color: #00ffff;
+}
+
+.heading{
+    text-align: center;
+    color: #fb8500;
+    font-size: 100px;
+    font-style: normal;
+    font-family:'fantasy, copperplate';
+    
+
+   
+   
+}
+.P{
+    color: yellow;
+}
+.text{
+    text-align: center;
+    color:#023e8a;
+    font: 2em sans-serif;
+}
+
+@media(max-width:768px){
+   
+    .heading{
+        text-align: center;
+        color: red;
+        font-family:'poppins, sans-serif';
+        font-size: 50px;
+        font-style: normal;
+    
+    
+        
+    
+       
+       
+    }
+    
+    .text{
+        text-align: center;
+        color:#023e8a;
+        font: 1em sans-serif;
+    }
+
+}

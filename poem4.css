@@ -1,0 +1,65 @@
+.navbar ul li{
+    display: inline-block;
+    
+}
+.navbar{
+    background-color: #8338ec;
+    padding: 30px;
+    text-align: center;
+   
+}
+.navbar ul li a{
+    list-style:none;
+    text-decoration: none;
+    color: #ffffff;
+    font: 1.5em sans-serif;
+    padding: 70px;
+}
+  .navbar :hover{
+    color: #00ffff;
+}
+
+.heading{
+    text-align: center;
+    color:#ff4d6d;
+    font-size: 100px;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    
+
+   
+   
+}
+.P{
+    color: #0000ff;
+}
+.text{
+    text-align: center;
+    color:#bc6c25;
+    font: 2em sans-serif;
+}
+
+@media(max-width:768px){
+   
+    .heading{
+        text-align: center;
+        color: red;
+        font-family:'poppins, sans-serif';
+        font-size: 50px;
+        font-style: normal;
+    
+    
+        
+    
+       
+       
+    }
+    
+    .text{
+        text-align: center;
+        color:#bc6c25;
+        font: 1em sans-serif;
+    }
+    
+
+    }

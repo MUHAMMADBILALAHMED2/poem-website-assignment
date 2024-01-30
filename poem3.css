@@ -1,0 +1,100 @@
+.navbar ul li{
+    display: inline-block;
+    
+}
+.navbar{
+    background-color: #8338ec;
+    padding: 30px;
+    text-align: center;
+   
+}
+.navbar ul li a{
+    list-style:none;
+    text-decoration: none;
+    color: #ffffff;
+    font: 1.5em sans-serif;
+    padding: 70px;
+}
+  .navbar :hover{
+    color: #00ffff;
+}
+
+.heading{
+    text-align: center;
+    color: red;
+    font-family:'poppins, sans-serif';
+    font-size: 100px;
+    font-style: normal;
+    
+
+   
+   
+}
+.P{
+    color: #008000;
+}
+.text{
+    text-align: center;
+    color:#70e000;
+    font: 2em sans-serif;
+}
+
+@media(max-width:768px){
+   
+.heading{
+    text-align: center;
+    color: red;
+    font-family:'poppins, sans-serif';
+    font-size: 50px;
+    font-style: normal;
+
+
+    
+
+   
+   
+}
+
+.text{
+    text-align: center;
+    color:#70e000;
+    font: 1em sans-serif;
+}
+
+
+
+.nav-bar{
+    position: absolute;
+    height: 100vh;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+    width: 200px;
+    z-index: 2;
+    background-color: #ffffff;
+    top: 0;
+    left:-200px;
+    transition: 0.5s;
+}
+.nav-bar ul li{
+    display: block;
+}
+.nav-bar .fa-solid{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-bars{
+    position:absolute;
+    font-size: 20px;
+    top: 28px;
+    left: 10px; 
+     
+
+}
+nav .fa-solid{
+    display: block;
+    text-align: right;
+}
+}
